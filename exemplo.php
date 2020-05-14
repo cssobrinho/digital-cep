@@ -6,6 +6,6 @@ use ctqsoftware\DigitalCep\Search;
 
 $busca = new Search;
 
-$resultado = $busca->getAddressFromZipcode('01001-000');
+$resultado = $busca->getAddressFromZipcode('28941268');
 
 print_r($resultado);
